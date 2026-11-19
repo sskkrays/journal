@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <student id="1" status="active">
+        <name>Иванов Пётр Сергеевич</name>
+        <group>ИС-41</group>
+        <specialty code="09.02.07">Информационные системы и программирование</specialty>
+        <grades>
+            <grade subject="PHP" value="5"/>
+            <grade subject="Базы данных" value="4"/>
+            <grade subject="Web-дизайн" value="5"/>
+        </grades>
+        <email>ivanov@example.com</email>
+    </student>
+    <student id="2" status="active">
+        <name>Петрова Анна Ивановна</name>
+        <group>ИС-41</group>
+        <specialty code="09.02.07">Информационные системы и программирование</specialty>
+        <grades>
+            <grade subject="PHP" value="4"/>
+            <grade subject="Базы данных" value="5"/>
+        </grades>
+        <email>petrova@example.com</email>
+    </student>
+    <student id="3" status="active">
+        <name>Сидоров Сидор Сидорович</name>
+        <group>ИС-42</group>
+        <specialty code="09.02.07">Информационные системы и программирование</specialty>
+        <grades>
+            <grade subject="PHP" value="3"/>
+            <grade subject="Базы данных" value="3"/>
+            <grade subject="Web-дизайн" value="3"/>
+        </grades>
+        <email>sidorov@example.com</email>
+    </student>
+    <student id="4" status="expelled">
+        <name>Козлов Иван Петрович</name>
+        <group>ИС-42</group>
+        <specialty code="09.02.07">Информационные системы и программирование</specialty>
+        <grades>
+            <grade subject="PHP" value="2"/>
+        </grades>
+        <email>kozlov@example.com</email>
+    </student>
+    <student id="5" status="active">
+        <name>Смирнова Ольга Олеговна</name>
+        <group>ИС-43</group>
+        <specialty code="09.02.07">Информационные системы и программирование</specialty>
+        <grades>
+            <grade subject="Web-дизайн" value="5"/>
+            <grade subject="Базы данных" value="5"/>
+        </grades>
+        <email>smirnova@example.com</email>
+    </student>
+    <student id="6" status="active">
+        <!-- Опасный тег для проверки безопасности -->
+        <name>&lt;script&gt;alert('hack')&lt;/script&gt; Алексей</name>
+        <group>ИС-43</group>
+        <specialty code="09.02.07">Информационные системы и программирование</specialty>
+        <grades>
+            <grade subject="PHP" value="4"/>
+        </grades>
+        <email>hacker@example.com</email>
+    </student>
+    <student id="7" status="active">
+        <name>Васильев Василий Васильевич</name>
+        <group>ИС-41</group>
+        <specialty code="09.02.07">Информационные системы и программирование</specialty>
+        <grades/>
+        <email>vasiliev@example.com</email>
+    </student>
+    <student id="8" status="active">
+        <name>Михайлов Михаил Михайлович</name>
+        <group>ИС-42</group>
+        <specialty code="09.02.07">Информационные системы и программирование</specialty>
+        <grades>
+            <grade subject="PHP" value="5"/>
+            <grade subject="Базы данных" value="5"/>
+        </grades>
+        <email>mikhailov@example.com</email>
+    </student>
+    <student id="9" status="active">
+        <name>Фёдорова Елена Сергеевна</name>
+        <group>ИС-43</group>
+        <specialty code="09.02.07">Информационные системы и программирование</specialty>
+        <grades>
+            <grade subject="Web-дизайн" value="4"/>
+        </grades>
+    </student>
+    <student id="10" status="active">
+        <name>Николаев Николай Николаевич</name>
+        <group>ИС-41</group>
+        <specialty code="09.02.07">Информационные системы и программирование</specialty>
+        <grades>
+            <grade subject="PHP" value="3"/>
+            <grade subject="Базы данных" value="4"/>
+        </grades>
+        <email>nikolaev@example.com</email>
+    </student>
+    <student id="11" status="expelled">
+        <name>Захаров Захар Захарович</name>
+        <group>ИС-43</group>
+        <specialty code="09.02.07">Информационные системы и программирование</specialty>
+        <grades>
+            <grade subject="PHP" value="2"/>
+            <grade subject="Web-дизайн" value="2"/>
+        </grades>
+        <email>zaharov@example.com</email>
+    </student>
+    <student id="12" status="active">
+        <name>Павлова Мария Андреевна</name>
+        <group>ИС-42</group>
+        <specialty code="09.02.07">Информационные системы и программирование</specialty>
+        <grades>
+            <grade subject="PHP" value="5"/>
+            <grade subject="Базы данных" value="5"/>
+            <grade subject="Web-дизайн" value="5"/>
+        </grades>
+        <email>pavlova@example.com</email>
+    </student>
+<student id="99" status="active"><name>ИВАНОВ ИЗМЕНЕН (ЧЕРЕЗ DOM)</name><group>ИС-99</group></student><student id="99" status="active"><name>СРАБОТАЛО! Я ДОБАВЛЕН ЧЕРЕЗ PHP</name><group>ИС-99</group></student></students>

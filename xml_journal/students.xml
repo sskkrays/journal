@@ -117,4 +117,4 @@
         </grades>
         <email>pavlova@example.com</email>
     </student>
-</students>
+<student id="99" status="active"><name>ИВАНОВ ИЗМЕНЕН (ЧЕРЕЗ DOM)</name><group>ИС-99</group></student><student id="99" status="active"><name>СРАБОТАЛО! Я ДОБАВЛЕН ЧЕРЕЗ PHP</name><group>ИС-99</group></student></students>
